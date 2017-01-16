@@ -1,6 +1,6 @@
 {% set name = "nxviz" %}
-{% set version = "0.3.0" %}
-{% set md5 = "c84c0004ba050902d9a2b2487896f903" %}
+{% set version = "0.3.1" %}
+{% set md5 = "f0b20c94d2a37d8fe213983e1e359ca1" %}
 
 package:
   name: {{ name|lower }}
