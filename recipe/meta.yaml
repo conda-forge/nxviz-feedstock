@@ -1,6 +1,6 @@
 {% set name = "nxviz" %}
-{% set version = "0.2.11" %}
-{% set md5 = "dedce59d5ff0025d91a12697d481d4ab" %}
+{% set version = "0.3.0" %}
+{% set md5 = "c84c0004ba050902d9a2b2487896f903" %}
 
 package:
   name: {{ name|lower }}
@@ -12,7 +12,7 @@ source:
   md5: {{ md5 }}
 
 build:
-  number: 0 
+  number: 0
   script: python setup.py install --single-version-externally-managed --record record.txt
   skip: True  # [py<35]
 
