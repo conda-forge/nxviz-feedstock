@@ -1,6 +1,6 @@
 {% set name = "nxviz" %}
-{% set version = "0.3.1" %}
-{% set md5 = "f0b20c94d2a37d8fe213983e1e359ca1" %}
+{% set version = "0.3.2" %}
+{% set sha256 = "2b8802305eed2cec3d64ffdc90cf94ceb7b9447bc6dd1cf6f3a65078cbae2877" %}
 
 package:
   name: {{ name|lower }}
@@ -9,12 +9,12 @@ package:
 source:
   fn: {{ name }}-{{ version }}.tar.gz
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  md5: {{ md5 }}
+  sha256: {{ sha256 }}
 
 build:
   number: 0
   script: python setup.py install --single-version-externally-managed --record record.txt
-  skip: True  # [py<35]
+  skip: True  # [py<36]
 
 requirements:
   build:
@@ -26,7 +26,6 @@ requirements:
     - networkx
     - numpy
     - palettable
-    - polcart
 
 test:
   imports:
