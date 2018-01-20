@@ -1,6 +1,6 @@
 {% set name = "nxviz" %}
-{% set version = "0.3.4" %}
-{% set sha256 = "b5e5bb2b5dbdec7448eb3ecd96034b2c32b552faa83089b83f077774f072b426" %}
+{% set version = "0.3.5" %}
+{% set sha256 = "b9715780d85f24a4a4c84d184cc7fadc6f12feeb19d464b07afbb18d6ce9d8fd" %}
 
 package:
   name: {{ name|lower }}
