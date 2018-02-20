@@ -14,9 +14,7 @@ Summary: Rational network visualizations in Python
 Current build status
 ====================
 
-Linux: [![Circle CI](https://circleci.com/gh/conda-forge/nxviz-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/nxviz-feedstock)
-OSX: [![TravisCI](https://travis-ci.org/conda-forge/nxviz-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/nxviz-feedstock)
-Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/nxviz-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/nxviz-feedstock/branch/master)
+All platforms: ![](https://cdn.rawgit.com/conda-forge/conda-smithy/90845bba35bec53edac7a16638aa4d77217a3713/conda_smithy/static/disabled.svg)
 
 Current release info
 ====================
