@@ -27,6 +27,7 @@ requirements:
     - numpy
     - palettable
     - seaborn
+    - more-itertools
 
 test:
   imports:
