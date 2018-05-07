@@ -14,14 +14,16 @@ Summary: Rational network visualizations in Python
 Current build status
 ====================
 
-Linux: [![Circle CI](https://circleci.com/gh/conda-forge/nxviz-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/nxviz-feedstock)
-OSX: [![TravisCI](https://travis-ci.org/conda-forge/nxviz-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/nxviz-feedstock)
-Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/nxviz-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/nxviz-feedstock/branch/master)
+[![Linux](https://img.shields.io/circleci/project/github/conda-forge/nxviz-feedstock/master.svg?label=Linux)](https://circleci.com/gh/conda-forge/nxviz-feedstock)
+[![OSX](https://img.shields.io/travis/conda-forge/nxviz-feedstock/master.svg?label=macOS)](https://travis-ci.org/conda-forge/nxviz-feedstock)
+[![Windows](https://img.shields.io/appveyor/ci/conda-forge/nxviz-feedstock/master.svg?label=Windows)](https://ci.appveyor.com/project/conda-forge/nxviz-feedstock/branch/master)
 
 Current release info
 ====================
-Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/nxviz/badges/version.svg)](https://anaconda.org/conda-forge/nxviz)
-Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/nxviz/badges/downloads.svg)](https://anaconda.org/conda-forge/nxviz)
+
+| Name | Downloads | Version | Platforms |
+| --- | --- | --- | --- |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-nxviz-green.svg)](https://anaconda.org/conda-forge/nxviz) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/nxviz.svg)](https://anaconda.org/conda-forge/nxviz) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/nxviz.svg)](https://anaconda.org/conda-forge/nxviz) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/nxviz.svg)](https://anaconda.org/conda-forge/nxviz) |
 
 Installing nxviz
 ================
