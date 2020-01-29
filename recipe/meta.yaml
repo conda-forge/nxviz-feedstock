@@ -1,6 +1,6 @@
 {% set name = "nxviz" %}
-{% set version = "0.6.1" %}
-{% set sha256 = "13c780c9309aa18ecad373eb999bbae98cbe549fb35956cc858e41e5921324e7" %}
+{% set version = "0.6.2" %}
+{% set sha256 = "960e00931a5488b6e9978a44643a20ee6661af421bfb0154c97d154801d26bd1" %}
 
 package:
   name: {{ name|lower }}
@@ -12,7 +12,7 @@ source:
   sha256: {{ sha256 }}
 
 build:
-  number: 1
+  number: 0
   script: python setup.py install --single-version-externally-managed --record record.txt
   skip: True  # [py<36]
 
