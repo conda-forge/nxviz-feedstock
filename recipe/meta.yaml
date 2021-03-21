@@ -1,6 +1,6 @@
 {% set name = "nxviz" %}
-{% set version = "0.6.2" %}
-{% set sha256 = "960e00931a5488b6e9978a44643a20ee6661af421bfb0154c97d154801d26bd1" %}
+{% set version = "0.6.3" %}
+{% set sha256 = "56405ceb1b95a540b3feca387f6f2f30a7e96725bc65fccd9488acf1849af96f" %}
 
 package:
   name: {{ name|lower }}
@@ -12,9 +12,9 @@ source:
   sha256: {{ sha256 }}
 
 build:
-  number: 3
+  number: 0
   script: python setup.py install --single-version-externally-managed --record record.txt
-  skip: True  # [py<36]
+  skip: true  # [py<36]
 
 requirements:
   host:
@@ -41,7 +41,7 @@ about:
   license: MIT
   license_family: MIT
   license_file: LICENSE
-  summary: 'Rational network visualizations in Python'
+  summary: Rational network visualizations in Python
 
   dev_url: https://github.com/ericmjl/nxviz
 
