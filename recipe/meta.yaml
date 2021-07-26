@@ -27,8 +27,7 @@ requirements:
     - networkx
     - numpy
     - palettable
-    - seaborn
-    - more-itertools
+    - pandas
 
 test:
   imports:
