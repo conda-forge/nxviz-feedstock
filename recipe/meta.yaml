@@ -1,6 +1,6 @@
 {% set name = "nxviz" %}
-{% set version = "0.6.3" %}
-{% set sha256 = "56405ceb1b95a540b3feca387f6f2f30a7e96725bc65fccd9488acf1849af96f" %}
+{% set version = "0.7.0" %}
+{% set sha256 = "25f666ca0931fbcfb173415ce50546d095f779a98be873b19f91ce1483ec188c" %}
 
 package:
   name: {{ name|lower }}
@@ -13,21 +13,21 @@ source:
 
 build:
   number: 0
-  script: python setup.py install --single-version-externally-managed --record record.txt
+  script: "{{ PYTHON }} -m pip install . -vv"
   skip: true  # [py<36]
 
 requirements:
   host:
     - python
     - setuptools
+    - pip
   run:
     - python
     - matplotlib-base
     - networkx
     - numpy
     - palettable
-    - seaborn
-    - more-itertools
+    - pandas
 
 test:
   imports:
