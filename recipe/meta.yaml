@@ -1,6 +1,6 @@
 {% set name = "nxviz" %}
-{% set version = "0.7.2" %}
-{% set sha256 = "c924355d03a4cf53839c1db8c58d9561ec224b1b799b91abd224f0e6aee5f9b2" %}
+{% set version = "0.7.3" %}
+{% set sha256 = "457189262eef841924044d4ec052caf06f1fa877197462ecbb9529d2ce7ba3c4" %}
 
 package:
   name: {{ name|lower }}
@@ -12,7 +12,7 @@ source:
   sha256: {{ sha256 }}
 
 build:
-  number: 1
+  number: 0
   script: {{ PYTHON }} -m pip install . -vv
   skip: true  # [py<36]
 
